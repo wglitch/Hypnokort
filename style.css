@@ -44,3 +44,8 @@ body.card-mode .toast{background:var(--green);color:#fff}
 @media(min-width:1200px){body.card-mode .language-card{padding-left:max(8vw,calc((100vw - 1080px)/2));padding-right:max(8vw,calc((100vw - 1080px)/2))}}
 @media(max-width:650px){.card-reading .quote{font-size:clamp(33px,10vw,46px);line-height:1.23;letter-spacing:-.04em}.card-reading .prompt-label{font-size:11px;margin-bottom:12px;letter-spacing:.12em}.card-reading .nlp-cue{font-size:14px;line-height:1.5;margin-top:20px}.card-reading .card-foot{padding-top:24px}.card-pattern svg{width:250vmax;height:250vmax}}
 @media(max-height:550px){.card-reading .quote{font-size:clamp(25px,3.5vw,36px)}.card-reading .prompt-label{margin-bottom:9px}.card-reading .nlp-cue{margin-top:14px}.card-reading .card-foot{padding-top:10px}}
+
+/* A feathered paper glow restores the readable text area from the approved mockup. */
+.card-reading::before{content:'';position:absolute;inset:-35px -30px -20px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 43% 44%,#f5f2e9e8 0%,#f5f2e9c4 35%,#f5f2e973 58%,#f5f2e900 78%);filter:blur(19px)}
+.card-reading .quote,.card-reading .nlp-cue,.card-reading .prompt-label{text-shadow:0 0 8px #f5f2e9a6,0 0 18px #f5f2e980}
+@media(max-width:650px){.card-reading::before{inset:-25px -23px -15px;filter:blur(15px)}}

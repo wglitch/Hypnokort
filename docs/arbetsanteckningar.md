@@ -462,3 +462,8 @@ Användaren önskar betydligt mindre text runtom, med Frasbankens layout som ref
 ### Layout 1.2 – godkänd ljus op-art
 
 Efter diskussion och tre bildskisser godkände användaren att införa den ljusa stilen i hela kortleken. Elfenbensvit bakgrund, mörk fullt opak text, stilla optiska mönster i varm grafit med 50 procents opacitet. Vänsterställd typografi. På N-kort: liten versal ”SVARA PÅ” utan kolon direkt över den större frasen, följt av mindre förklaring i vanlig meningsform. Textdelarna ska vara ett sammanhållet block. Den optiska virvelns centrum placeras exakt vid uppmaningen, inte med den förskjutning som fanns i bildskissen. Hypnos- och nyanskorten får nästlade vridna fyrkanter. Mönstren är egen vektorgrafik, inte kopior av referensbilder med vattenstämplar. Funktioner och korttexter är oförändrade. Fulla webbläsarkontroller passerade och samtliga 86 kort kontrollerades i fyra skärmstorlekar.
+
+
+### Läsbarhet efter layout 1.2
+
+Användaren noterade att de godkända bildskisserna hade extra uppljusning precis bakom texten, som saknades i den första webbimplementeringen. Infört en mjuk, elliptisk pappersljusning med suddade, tonade kanter bakom textblocket samt diskret ljus textglöd. Ingen skarp textruta. Mönstren behåller sin styrka utanför läsområdet. Mobilvyn kontrollerad efter justeringen.
