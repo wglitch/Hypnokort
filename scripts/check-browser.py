@@ -25,10 +25,10 @@ with sync_playwright() as pw:
     assert page.get_by_role('button',name='Ta bort favorit',exact=True).is_visible()
     page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('button',name='NLP',exact=True).click()
-    assert page.locator('.prompt-label').inner_text()=='Svara på:'
+    assert page.locator('.prompt-label').inner_text()=='SVARA PÅ'
     page.get_by_role('searchbox',name='Sök bland korten').fill('N9')
     assert page.locator('.id').inner_text()=='N9'
-    assert page.locator('.card-pattern.circles').count()==1
+    assert page.locator('.card-pattern.optical-spiral').count()==1
     page.get_by_role('button',name='Till kortleken',exact=False).click()
     page.screenshot(path='/tmp/hypnokort-nlp-mobile.png')
     assert page.evaluate('''(()=>{const c=document.querySelector('.language-card'),l=document.querySelector('.prompt-label'),r=l.getBoundingClientRect(),b=c.getBoundingClientRect();const s=getComputedStyle(c);return Math.abs(parseFloat(s.getPropertyValue('--pattern-x'))-(r.left+r.width/2-b.left))<2&&Math.abs(parseFloat(s.getPropertyValue('--pattern-y'))-(r.top+r.height/2-b.top))<2})()''')

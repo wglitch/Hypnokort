@@ -457,3 +457,8 @@ Genomgång: M1–M50 och N1–N20 har visats, liksom tio inledande provfraser. D
 ### Layout 1.1 – kortet i centrum
 
 Användaren önskar betydligt mindre text runtom, med Frasbankens layout som referens men utan konstbilder. Genomfört: kort över hela skärmen, liten meny för bibliotek/sökning/kategorier/navigering, diskreta kontroller och förklaringar på begäran. Stilla, svaga geometriska mönster: nästlade fyrkanter för hypnoskort, diagonala fyrkanter för nyanskort, cirklar för N-kort. Cirklarnas centrum följer mitten av uppmaningen ”Svara på:” genom storleksändringar. Övningsöversikten har kortats och reflektionsfrågor ligger under ”Efteråt”. Korttexter, favoriter, anteckningar och övningsfunktioner bevaras. Mobil- och datorkontroller passerade, inklusive cirklarnas mittpunkt, biblioteksfilter, timers, ljudflöde och export/import.
+
+
+### Layout 1.2 – godkänd ljus op-art
+
+Efter diskussion och tre bildskisser godkände användaren att införa den ljusa stilen i hela kortleken. Elfenbensvit bakgrund, mörk fullt opak text, stilla optiska mönster i varm grafit med 50 procents opacitet. Vänsterställd typografi. På N-kort: liten versal ”SVARA PÅ” utan kolon direkt över den större frasen, följt av mindre förklaring i vanlig meningsform. Textdelarna ska vara ett sammanhållet block. Den optiska virvelns centrum placeras exakt vid uppmaningen, inte med den förskjutning som fanns i bildskissen. Hypnos- och nyanskorten får nästlade vridna fyrkanter. Mönstren är egen vektorgrafik, inte kopior av referensbilder med vattenstämplar. Funktioner och korttexter är oförändrade. Fulla webbläsarkontroller passerade och samtliga 86 kort kontrollerades i fyra skärmstorlekar.
