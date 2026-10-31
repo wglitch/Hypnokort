@@ -447,3 +447,8 @@ Genomgång: M1–M50 och N1–N20 har visats, liksom tio inledande provfraser. D
 | M58 | M-6♦, Eventually | Så småningom kan det du nu behöver tänka på bli något du bara gör. | Öppet tidsperspektiv och föreställning om övergång från medveten ansträngning till vana. |
 
 **Nionde kvarvarande indexposten, M-Q♦:** engelska ordleken ”You're unconscious … mind …” saknar direkt svensk motsvarighet. Förslag: avstå från bokstavlig översättning och låt ett separat svenskt kort om betydelseöppenhet ersätta funktionen. Detta kräver användarens språkliga bedömning, inte nytt godkännande av tidigare block.
+
+
+### Publicering verifierad
+
+2026-10-31: användaren aktiverade GitHub Actions som Pages-källa. Deployment för commit c9f18fb lyckades (Actions run 41234429711). https://wglitch.github.io/Hypnokort/ verifierad med HTTP 200. Faktisk svensk systemröst och tangentbordsdiktering på iPhone återstår att prova på en fysisk enhet.
