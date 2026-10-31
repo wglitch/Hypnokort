@@ -2,10 +2,11 @@
 
 En mobilanpassad svensk kortlek och övningsbank för hypnos, NLP och språkligt flöde. Statisk webbapp utan server, konto eller AI-analys.
 
-## Version 1
+## Version 1.1
 
 - 86 egna svenska kortförslag: 56 hypnos-/Miltonkort, 20 NLP-övningskort och 10 kort om tillåtelse och nyanser.
-- Bläddring, slumpning, sökning, favoritfilter, kortöversikt och förklaringar.
+- Kort över hela skärmen, bläddring, slumpning och förklaringar på begäran. Sökning, favoritfilter, kortöversikt och navigering i biblioteket.
+- Stilla geometriska bakgrunder: nästlade fyrkanter, diagonala fyrkanter och cirklar centrerade vid ”Svara på:”. Inga konstbilder.
 - 11 övningar: MUS, yes-set, no-set, compliance-set, inbäddade uppmaningar, alternativfrågor, omramning, konkret–öppet–konkret, väv in ord, berättande och metamodellen.
 - Timer med paus och återställning. Nya ord var tionde sekund i flödesövningen.
 - Textfält för skrivna eller tangentbordsdikterade försök. Inbäddade uppmaningar har enbart egen övning och utvärdering.

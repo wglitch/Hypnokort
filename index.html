@@ -7,20 +7,21 @@
   <meta name="description" content="Hypnokort – svenska språkverktyg och lekfulla övningar i hypnos, NLP och retorik.">
   <title>Hypnokort · Lek med språket</title>
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./style.css?v=1.1">
+  <script src="./app.js?v=1.1" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Till innehållet</a>
   <header class="header">
     <a class="brand" href="#kort" aria-label="Hypnokort, startsida"><span class="brand-icon" aria-hidden="true">✳</span><span>hypnokort<span class="brand-dot">.</span></span></a>
-    <span class="version">ETT SPRÅKLABB · V1</span>
+    <button class="menu-button" data-action="library" aria-label="Öppna biblioteket" aria-haspopup="dialog">···</button>
   </header>
-  <nav class="nav" aria-label="Huvudmeny">
-    <a href="#kort" data-page="kort">Kortleken</a><a href="#ovningar" data-page="ovningar">Övningar</a><a href="#ljud" data-page="ljud">Ljudpass</a><a href="#om" data-page="om">Om labbet</a>
-  </nav>
   <main id="main" tabindex="-1"><p class="loading">Laddar kortleken …</p></main>
-  <footer class="footer"><span>Ord att pröva. Perspektiv att upptäcka.</span><span>På svenska, i din egen takt.</span></footer>
+  <dialog id="library-dialog" aria-labelledby="library-title">
+    <div class="library-header"><h2 id="library-title">Biblioteket</h2><button class="icon-btn" data-action="close-library" aria-label="Stäng biblioteket">×</button></div>
+    <nav class="nav" aria-label="Huvudmeny"><a href="#kort" data-page="kort">Kortleken</a><a href="#ovningar" data-page="ovningar">Övningar</a><a href="#ljud" data-page="ljud">Ljudpass</a><a href="#om" data-page="om">Om labbet</a></nav>
+    <div id="library-content"></div>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript>Slå på JavaScript för att använda kortleken och övningarna.</noscript>
 </body>

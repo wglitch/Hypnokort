@@ -452,3 +452,8 @@ Genomgång: M1–M50 och N1–N20 har visats, liksom tio inledande provfraser. D
 ### Publicering verifierad
 
 2026-10-31: användaren aktiverade GitHub Actions som Pages-källa. Deployment för commit c9f18fb lyckades (Actions run 41234429711). https://wglitch.github.io/Hypnokort/ verifierad med HTTP 200. Faktisk svensk systemröst och tangentbordsdiktering på iPhone återstår att prova på en fysisk enhet.
+
+
+### Layout 1.1 – kortet i centrum
+
+Användaren önskar betydligt mindre text runtom, med Frasbankens layout som referens men utan konstbilder. Genomfört: kort över hela skärmen, liten meny för bibliotek/sökning/kategorier/navigering, diskreta kontroller och förklaringar på begäran. Stilla, svaga geometriska mönster: nästlade fyrkanter för hypnoskort, diagonala fyrkanter för nyanskort, cirklar för N-kort. Cirklarnas centrum följer mitten av uppmaningen ”Svara på:” genom storleksändringar. Övningsöversikten har kortats och reflektionsfrågor ligger under ”Efteråt”. Korttexter, favoriter, anteckningar och övningsfunktioner bevaras. Mobil- och datorkontroller passerade, inklusive cirklarnas mittpunkt, biblioteksfilter, timers, ljudflöde och export/import.

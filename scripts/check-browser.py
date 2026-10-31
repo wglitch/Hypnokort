@@ -13,24 +13,34 @@ with sync_playwright() as pw:
     page.wait_for_selector('.language-card')
     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
     page.screenshot(path='/tmp/hypnokort-mobile.png',full_page=True)
-    page.get_by_role('button',name='Visa språkgreppet',exact=False).click()
+    page.get_by_role('button',name='Språkgreppet',exact=False).click()
     assert page.locator('.detail').is_visible()
     page.get_by_role('button',name='Spara favorit',exact=True).click()
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('button',name='Visa bara favoriter',exact=True).click()
+    page.get_by_role('button',name='Till kortleken',exact=False).click()
     assert page.locator('.counter').inner_text()=='1 / 1'
     page.reload()
     page.wait_for_selector('.language-card')
     assert page.get_by_role('button',name='Ta bort favorit',exact=True).is_visible()
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('button',name='NLP',exact=True).click()
-    assert page.locator('.prompt-label').inner_text()=='SVARA PÅ:'
+    assert page.locator('.prompt-label').inner_text()=='Svara på:'
     page.get_by_role('searchbox',name='Sök bland korten').fill('N9')
     assert page.locator('.id').inner_text()=='N9'
-    page.get_by_role('button',name='Visa möjlig ingång',exact=False).click()
+    assert page.locator('.card-pattern.circles').count()==1
+    page.get_by_role('button',name='Till kortleken',exact=False).click()
+    page.screenshot(path='/tmp/hypnokort-nlp-mobile.png')
+    assert page.evaluate('''(()=>{const c=document.querySelector('.language-card'),l=document.querySelector('.prompt-label'),r=l.getBoundingClientRect(),b=c.getBoundingClientRect();const s=getComputedStyle(c);return Math.abs(parseFloat(s.getPropertyValue('--pattern-x'))-(r.left+r.width/2-b.left))<2&&Math.abs(parseFloat(s.getPropertyValue('--pattern-y'))-(r.top+r.height/2-b.top))<2})()''')
+    page.get_by_role('button',name='Möjlig ingång',exact=False).click()
     assert 'inom dig' in page.locator('.detail').inner_text()
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('searchbox',name='Sök bland korten').fill('zzzz-no-match')
-    assert page.get_by_role('heading',name='Inga kort just här.').is_visible()
+    page.get_by_role('button',name='Till kortleken',exact=False).click()
+    assert page.get_by_role('heading',name='Inga kort i det här urvalet.').is_visible()
     page.get_by_role('button',name='Visa alla kort',exact=True).click()
     assert page.locator('.counter').inner_text()=='1 / 86'
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('link',name='Övningar',exact=True).click()
     assert page.locator('.exercise-tile').count()==11
     page.locator('a[href="#ovning/mus"]').click()
@@ -65,6 +75,7 @@ with sync_playwright() as pw:
     page.clock.fast_forward(10100)
     assert page.locator('.exercise-prompt').inner_text()!=old
     assert page.locator('#word-history').inner_text()
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('link',name='Ljudpass',exact=True).click()
     assert page.locator('[data-audio-choice]').count()==11
     page.evaluate('''window.__spoken=[];window.speechSynthesis.speak=(u)=>{window.__spoken.push(u.text);setTimeout(()=>u.onend?.(),1)};window.speechSynthesis.cancel=()=>{}''')
@@ -84,6 +95,7 @@ with sync_playwright() as pw:
     page.clock.fast_forward(8000)
     assert 'klart' in page.locator('#audio-status').inner_text()
     assert page.locator('#audio-start').inner_text()=='Starta ljudpass'
+    page.get_by_role('button',name='Öppna biblioteket',exact=True).click()
     page.get_by_role('link',name='Om labbet',exact=True).click()
     with page.expect_download() as download:
         page.get_by_role('button',name='Exportera mina sparade data').click()
