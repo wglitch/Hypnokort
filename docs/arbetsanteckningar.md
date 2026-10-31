@@ -419,6 +419,16 @@ Assistentens förslag, ännu inte godkända i detalj:
 
 Inget ljudläge är byggt. Röststyrning, bakgrundsuppspelning, teknisk plattform och automatisk analys är inte beslutade.
 
+### Prototypbeslut och genomförande 2026-10-31
+
+Användaren vill nu prioritera en webbprototyp av befintliga kort och övningar. De tio extra frasförslagen efter M58 väntar. Publicering ska ske offentligt via GitHub Pages. AI-analys skjuts uttryckligen till 2.0. Separat nytt repo **wglitch/Hypnokort**, inte det befintliga verktyget Frasbanken. Användaren skapade det tomma repot sedan integrationen nekades rätt att skapa repository.
+
+Första appen finns i `/workspace/hypnokort` och koden är pushad till https://github.com/wglitch/Hypnokort . 86 kort och 11 övningar, sökning, favoriter, lokala anteckningar med tangentbordsdiktering, export/import, övningstimer och ljudpass med systemuppläsning. M10 är undanlagd, M43 sammanförd som variant; kvarvarande arbetsförslag är märkta. Ursprungliga icke valda alternativa block är inte nya kort i appen. Ingen AI-analys eller inspelning. Ingen garanterad bakgrundsuppspelning.
+
+Webbläsarkontroller passerade i Chromium för mobil- och datorlayout, filter, favoriter, N-format, anteckningslagring, timer/pause, ordvävning, ljudpassets styrning och export/import. Ljudflödestestet använder simulerad uppläsning; svensk röst och iPhone-beteende behöver provas på fysisk enhet.
+
+Publicering är ännu inte verifierad. GitHub nekade integrationen att aktivera Pages (403 Resource not accessible by integration). Användaren har fått den konkreta instruktionen att välja GitHub Actions i https://github.com/wglitch/Hypnokort/settings/pages . Publiceringsworkflow är redan upplagt och kan köras igen efter inställningen. Förväntad adress är https://wglitch.github.io/Hypnokort/ men ska inte rapporteras som fungerande innan deployment lyckats.
+
 ## Avstämning och sista Mandel-luckor – M51–M58
 
 Genomgång: M1–M50 och N1–N20 har visats, liksom tio inledande provfraser. De är inte 80 unika slutliga kort. Användarens positiva blockrespons ska inte kräva nytt godkännande av allt; återvänd främst till uttryckliga tveksamheter, ändringar och dubbletter. M10 är undanlagd, M43 en möjlig variant av M23. Fyra tidiga fraser saknar specifik respons men är inte nya att läsa.
