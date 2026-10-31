@@ -1,0 +1,1002 @@
+{
+  "cards": [
+    {
+      "id": "B1",
+      "title": "Avlasta kraven",
+      "phrase": "Du behöver inte [göra / prestera / vara] något särskilt just nu.",
+      "explanation": "Tre varianter som avlastar olika krav. Behåll ”något särskilt” i alla tre. ”Vara något särskilt” har annan innebörd än ”vara på något särskilt sätt”.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B2",
+      "title": "Din egen takt",
+      "phrase": "Du kan ta det i din egen takt.",
+      "explanation": "”Egen” sätter fokus på det egna valet av takt.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B3",
+      "title": "Inte veta i förväg",
+      "phrase": "Du behöver inte veta i förväg hur det ska kännas.",
+      "explanation": "Avlastar kravet att förutsäga upplevelsen.",
+      "deck": "bas",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "B4",
+      "title": "Låta det vara",
+      "phrase": "Du kan låta det vara en stund.",
+      "explanation": "Öppet för att lämna något ifred eller tillfälligt avstå från att förändra det.",
+      "deck": "bas",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "B5",
+      "title": "Inget behöver bli klart",
+      "phrase": "Ingenting behöver bli färdigt just nu.",
+      "explanation": "Avlastar resultatkravet under en avgränsad tid.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B6",
+      "title": "Tankar som passerar",
+      "phrase": "Du behöver inte hålla kvar varje tanke som dyker upp.",
+      "explanation": "Ger möjlighet att inte hålla fast vid varje tanke.",
+      "deck": "bas",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "B7",
+      "title": "Skulle kunna",
+      "phrase": "Du skulle kunna börja med något litet.",
+      "explanation": "”Skulle kunna” betonar en tänkbar väg och eget val.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B8",
+      "title": "Märka förändringen",
+      "phrase": "Du kanske märker att något blivit lättare.",
+      "explanation": "”Kanske” lämnar märkandet öppet. ”Att något blivit lättare” bäddar in förändringen som ett förutsättande.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B9",
+      "title": "Få klarna",
+      "phrase": "Allt får klarna i sin egen takt.",
+      "explanation": "Tillåtelse och ett eget förlopp, utan krav på klarhet nu.",
+      "deck": "bas",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "B10",
+      "title": "Betoning öppnar betydelsen",
+      "phrase": "Du behöver inte ändra allt nu.",
+      "explanation": "Pröva att betona ”behöver”, ”allt” och ”nu”. Lyssna efter hur det underförstådda ändras.",
+      "deck": "bas",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M1",
+      "title": "negerad uppmaningsram",
+      "phrase": "Jag kommer inte säga åt dig ”**välj en ny väg**”, det får du komma fram till själv.",
+      "explanation": "En negerad ram uttalar ändå uppmaningen. Markera ”välj en ny väg” med vokal emfas. Avslutningen lämnar avgörandet till lyssnaren men antyder också en riktning.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M2",
+      "title": "citerad uppmaning",
+      "phrase": "Jag hörde en gång någon säga: ”**Börja innan du känner dig redo**.” Vad händer om du prövar den tanken?",
+      "explanation": "Uppmaningen får en indirekt avsändare. Berättarramen är en exempelmall och ska bara användas som faktisk anekdot om den är sann.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M3",
+      "title": "när i stället för om",
+      "phrase": "Jag undrar när du kommer att upptäcka att du redan har börjat tänka annorlunda.",
+      "explanation": "”När” förutsätter en framtida upptäckt; ”redan” placerar den tänkta förändringen före upptäckten.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M4",
+      "title": "alternativ med gemensam riktning",
+      "phrase": "Vill du börja med att ändra hur du tänker på det, eller med att göra något annorlunda?",
+      "explanation": "Valet gäller vägen till förändring; att börja förändra ligger inbyggt i båda alternativen.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M5",
+      "title": "ordningsfråga",
+      "phrase": "Kommer du att märka att du kan innan du vågar — eller våga innan du märker att du kan?",
+      "explanation": "Frågar efter ordningen mellan två skeenden och ramar in båda som väntade. Upprepning med omvänd ordning.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M6",
+      "title": "graderad koppling",
+      "phrase": "Ju mindre du behöver bevisa för dig själv, desto mer kan du upptäcka att du redan kan.",
+      "explanation": "Presenterar minskat beviskrav och upptäckt av förmåga som sammanhängande. Ett föreslaget samband, inte en allmän lag.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M7",
+      "title": "bekräftelse och kontrast",
+      "phrase": "Du kan fortfarande känna dig osäker — och ändå göra något du inte vågade förut.",
+      "explanation": "Erkänner osäkerhet och skiljer den från handlingsförmåga; säkerhet behöver inte komma först.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M8",
+      "title": "återkommande signal",
+      "phrase": "Varje gång du hör dig själv tänka ”jag vet inte”, kan du lägga till: ”**ännu**”.",
+      "explanation": "Knyter en återkommande tanke till en konkret språklig omramning från statisk okunskap till öppet tidsförlopp.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M9",
+      "title": "delperspektiv",
+      "phrase": "Finns det en del av dig som redan är beredd att pröva, även om en annan del fortfarande tvekar?",
+      "explanation": "Låter beredskap och tvekan samexistera inom ett bildligt delperspektiv. ”Finns det” lämnar existensen öppen.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M11",
+      "title": "avlastning med inbäddad uppmaning",
+      "phrase": "Du behöver inte säga ”**jag kan lära mig det här**” med övertygelse. Börja med att höra hur det låter.",
+      "explanation": "Avlastar kravet på övertygelse och introducerar samtidigt en möjlig inre replik. ”Jag kan lära mig det här” är ett påstående, inte grammatiskt en uppmaning; uppmaningen är ”börja med att höra hur det låter”.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M12",
+      "title": "tidskoppling",
+      "phrase": "Så snart du slutar kräva ett perfekt första steg kan du börja välja ett möjligt.",
+      "explanation": "Knyter en förändring av kriterium till en handlingsmöjlighet. ”Så snart” ramar in övergången som nära kopplad till villkoret.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M13",
+      "title": "omedelbar upptäckt",
+      "phrase": "Du kan upptäcka vad du behöver lära dig genom att börja med det du redan kan.",
+      "explanation": "Gör befintlig förmåga till startpunkt och handling till ett sätt att upptäcka vad som saknas.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M14",
+      "title": "tempo med förutsättande",
+      "phrase": "Ändra inte uppfattning för snabbt — ge dig tid att upptäcka vad som faktiskt har förändrats.",
+      "explanation": "Avråder från snabb förändring av uppfattning och introducerar samtidigt ett förutsättande om att något förändrats. ”Inte för snabbt” utesluter inte att ändra uppfattning.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M15",
+      "title": "uppmärksamhetsstyrning",
+      "phrase": "Fokusera på det du gör annorlunda de gånger problemet är mindre.",
+      "explanation": "Styr sökandet mot undantag och variation i stället för problemets vanliga förlopp. Förutsätter både mindre problematiska tillfällen och ett annorlunda handlande då.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M16",
+      "title": "framtida återblick",
+      "phrase": "Hur skulle det kännas att se tillbaka på det här som något du har lärt dig att hantera?",
+      "explanation": "Erbjuder en tänkt framtida position där nuvarande svårighet har blivit en erfarenhet av lärande.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M17",
+      "title": "avsiktsfråga",
+      "phrase": "Vad vill du kunna välja, även de gånger den gamla reaktionen dyker upp?",
+      "explanation": "Flyttar fokus från att reaktionen måste försvinna till möjlighet att välja när den finns kvar.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M18",
+      "title": "nästa steg och perspektiv",
+      "phrase": "Vad blir nästa steg om du inte behöver börja om från början?",
+      "explanation": "Tar tillfälligt bort antagandet att allt måste göras om och riktar sökandet mot en fortsättning.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M19",
+      "title": "bara",
+      "phrase": "Bara slappna av.",
+      "explanation": "Användaren lyfter ”Bara slappna av” för att renodla Mandels ”Just…”. Tidigare assistentförslag med ”Pröva bara tanken” och ett citat blandade flera grepp och ersätts som huvudexempel. Arbetsmall: Bara [uppmaning]. ”Bara” begränsar den uttryckliga uppgiften och kan framställa den som enkel eller tillräcklig; imperativet finns kvar och enkelheten är ingen garanti. Exemplet och mallen är under diskussion.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M20",
+      "title": "medgivande och möjlighet",
+      "phrase": "Du kan ändra dig om vad du tror att du kan, även innan du har alla bevis.",
+      "explanation": "Användaren lyfter ”kan” som både tillåtande och stärkande av förmåga: ”Du kan!” Assistentens arbetsversion använder därför ”kan”; användaren har ännu inte uttryckligen låst bytet. ”Får” behålls som tydligare tillåtelsevariant. Svenskans ”kan” kan uttrycka förmåga, möjlighet och tillåtelse beroende på sammanhang. Detta överlappar tidigare material (särskilt block 1 nr 2 och originalunderlagets modalgrupp), men den slutliga sammanföringen av kort är inte beslutad.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M21",
+      "title": "medan",
+      "phrase": "Och medan du funderar på hur det ska gå till kan du börja lägga märke till vad du redan gör annorlunda.",
+      "explanation": "Lägger undersökningen av förändring parallellt med fortsatt funderande. ”Redan” och ”vad du gör annorlunda” bäddar in en pågående förändring.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M22",
+      "title": "eftersom",
+      "phrase": "Eftersom du inte kan veta precis hur det blir, kan du pröva i stället för att gissa.",
+      "explanation": "Gör ovissheten till ett skäl att undersöka genom handling. Skälet föreslås av talaren; det är inget logiskt nödvändigt samband.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M23",
+      "title": "när ... så",
+      "phrase": "När den gamla tvekan dyker upp så kan du ta den som en påminnelse: ”**Välj ditt nästa steg själv**.”",
+      "explanation": "Knyter en återkommande reaktion till en ny möjlig respons. Citatet innehåller en svensk imperativ och ger tvekan en ny funktion.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M24",
+      "title": "minne som utgångspunkt",
+      "phrase": "Du kanske minns något du först trodde var svårt — innan du lärde dig det.",
+      "explanation": "Riktar minnessökandet mot en förändrad bedömning av svårighet. ”Innan” placerar lärandet efter den första bedömningen.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M25",
+      "title": "ibland",
+      "phrase": "Ibland märker man först efteråt att man redan har gjort det man inte trodde att man kunde.",
+      "explanation": "Beskriver en möjlig erfarenhet generellt och skiljer handling från medveten upptäckt av förmåga. Gör inget uttryckligt påstående om lyssnarens egen historia.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M26",
+      "title": "förr eller senare",
+      "phrase": "Förr eller senare kommer du att märka vad du inte längre behöver göra på det gamla sättet.",
+      "explanation": "Lämnar tidpunkten öppen men framställer upptäckten som väntad. ”Inte längre” antyder att ett tidigare behov upphör.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M27",
+      "title": "var känns det?",
+      "phrase": "Var i kroppen märker du skillnaden när du säger ”jag kan inte” och sedan ”jag kan lära mig”?",
+      "explanation": "Erbjuder en konkret jämförelse mellan två formuleringar men förutsätter både en skillnad och att den märks kroppsligt. Frågan kan behöva öppnas om ingen sådan skillnad upplevs.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M28",
+      "title": "nu",
+      "phrase": "Du behöver inte vänta tills du vet hur hela vägen ser ut för att **börja nu**.",
+      "explanation": "Avlastar ett villkor för handling. ”Börja nu” är infinitivfras i helmeningen och kan även fungera fristående som svensk imperativ med vokal markering.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M29",
+      "title": "släpp taget",
+      "phrase": "Släpp kravet på att välja rätt för alltid — välj det du vill pröva härnäst.",
+      "explanation": "Två direkta uppmaningar: avgränsa beslutets räckvidd och välj ett försök. Gör ”släpp” konkret genom att ange vilket krav som avses.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M30",
+      "title": "frågesvans",
+      "phrase": "Du behöver inte vara säker för att vara nyfiken, eller hur?",
+      "explanation": "Skiljer säkerhet från nyfikenhet och bjuder genom frågesvansen in till bekräftelse. ”Eller hur?” kan också låta pressande beroende på tonfall.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M31",
+      "title": "jag vill bara att du",
+      "phrase": "Jag vill bara att du **prövar en annan väg** innan du bestämmer dig för att det inte går.",
+      "explanation": "”Bara” avgränsar önskemålet till ett försök. ”Innan” placerar försöket före slutsatsen. ”Prövar” är här finit verb, inte fristående imperativ; vokal emfas ändrar inte det.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M32",
+      "title": "jag vet inte hur",
+      "phrase": "Jag vet inte hur du kommer att hitta ditt sätt att göra det — men jag är nyfiken på vad du kommer att upptäcka.",
+      "explanation": "Osäkerheten gäller tillvägagångssättet medan ett eget sätt och en framtida upptäckt framställs som väntade.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M33",
+      "title": "hur snabbt",
+      "phrase": "Hur snabbt kan du upptäcka något som du faktiskt vill behålla av det du redan gör?",
+      "explanation": "Frågar efter hastigheten i upptäckten och leder sökandet mot något bevarandevärt i det befintliga handlandet.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M34",
+      "title": "hur långsamt",
+      "phrase": "Hur långsamt kan du ta det första steget och ändå vara på väg?",
+      "explanation": "Förskjuter fokus från prestationstempo till att rörelsen får räknas även när den är långsam.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M35",
+      "title": "och det bästa av allt",
+      "phrase": "Och det bästa av allt: du behöver inte veta i förväg vilket försök som kommer att lära dig mest.",
+      "explanation": "Ger ovisshet en positiv inramning och riktar uppmärksamheten mot lärande genom försök.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M36",
+      "title": "verkligen",
+      "phrase": "Vad behöver du verkligen veta innan du börjar — och vad kan du ta reda på längs vägen?",
+      "explanation": "”Verkligen” skärper granskningen av ett förhandskrav; andra frågeledet öppnar för att en del kunskap kan komma senare.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M37",
+      "title": "du kanske har lagt märke till",
+      "phrase": "Du kanske har lagt märke till att det som en gång krävde mod nu går av bara farten.",
+      "explanation": "Lämnar märkandet osäkert och bäddar in en förändring från modkrävande handling till vana. Behöver passa personens erfarenhet.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M38",
+      "title": "kan du föreställa dig",
+      "phrase": "Kan du föreställa dig att göra det på ditt sätt, utan att först jämföra det med någon annans?",
+      "explanation": "Erbjuder ett föreställningsförsök där jämförelsekravet tillfälligt tas bort.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M39",
+      "title": "kan du känna",
+      "phrase": "Kan du känna någon skillnad mellan ”jag måste bestämma mig” och ”jag får välja”?",
+      "explanation": "Jämför två inre formuleringar: tvång och tillåtelse. Frågan lämnar öppet om en kännbar skillnad finns.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M40",
+      "title": "bekräfta och led vidare",
+      "phrase": "Du sitter här, du hör min röst, och du kan **ge dig själv ett nytt alternativ**.",
+      "explanation": "Binder två kontrollerbara observationer till en föreslagen möjlighet med ”och”. Observationerna används bara när de stämmer. De bevisar inte den efterföljande möjligheten. ”Ge” fungerar både som infinitiv efter ”kan” och som fristående imperativ.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M41",
+      "title": "jag undrar om",
+      "phrase": "Jag undrar om du måste känna dig redo för att börja — eller om du kan bli redo genom att börja.",
+      "explanation": "Prövar ordningen mellan beredskap och handling.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M42",
+      "title": "innan",
+      "phrase": "Innan du bestämmer dig för att du inte kan, ge dig själv chansen att lära dig.",
+      "explanation": "Placerar lärandet före slutsatsen om förmågan.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M44",
+      "title": "negerad uppmaningsram",
+      "phrase": "Jag tänker inte säga ”**ge dig själv en chans**” — men du kan lägga märke till hur de orden låter.",
+      "explanation": "Uppmaningen sägs i en ram som förnekar att den ska ges.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M45",
+      "title": "ju … desto",
+      "phrase": "Ju fler sätt du tillåter dig att pröva, desto mindre behöver allt hänga på det första.",
+      "explanation": "Kopplar fler möjliga försök till minskad betydelse av ett enda utfall.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M46",
+      "title": "och ändå",
+      "phrase": "Du har inte gjort det förut — och ändå kan du göra det för första gången.",
+      "explanation": "Samma faktum kan betyda brist på erfarenhet och möjlighet till en början.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M47",
+      "title": "delperspektiv",
+      "phrase": "Vad skulle den del av dig som vill framåt behöva höra från den del som vill vara säker?",
+      "explanation": "Gör en bildlig inre konflikt till ett utbyte av information.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M48",
+      "title": "bara",
+      "phrase": "Byt bara ut ”om jag misslyckas” mot ”om jag behöver försöka igen” och hör vad som händer.",
+      "explanation": "Ett konkret ordbyte flyttar perspektivet från slutgiltigt utfall till fortsatt möjlighet.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M49",
+      "title": "vad händer när",
+      "phrase": "Vad händer när du slutar behandla den första tanken som det sista ordet?",
+      "explanation": "Skiljer en spontan tanke från ett slutgiltigt avgörande.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M50",
+      "title": "alternativfråga",
+      "phrase": "Vill du låta nästa försök visa vad du kan — eller vad du behöver lära dig?",
+      "explanation": "Båda alternativen gör försöket till användbar information.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "N1",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Ingen lyssnar på mig.",
+      "explanation": "Prövar en universell generalisering och söker undantag.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Ingen? Finns det någon som faktiskt lyssnar?"
+    },
+    {
+      "id": "N2",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag kan inte säga nej.",
+      "explanation": "Undersöker en upplevd begränsning.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Vad hindrar dig från att säga nej?"
+    },
+    {
+      "id": "N3",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag måste ställa upp.",
+      "explanation": "Undersöker följden bakom ett måste.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Vad skulle hända om du inte gjorde det?"
+    },
+    {
+      "id": "N4",
+      "title": "Upptäck språkgreppet",
+      "phrase": "De tycker att jag är besvärlig.",
+      "explanation": "Söker grunden för en tolkning av andras tankar.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Vad har de sagt eller gjort som får dig att tro det?"
+    },
+    {
+      "id": "N5",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Det gick dåligt.",
+      "explanation": "Preciserar ett utelämnat innehåll bakom ett omdöme.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Vad var det som gick dåligt, mer konkret?"
+    },
+    {
+      "id": "N6",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag borde vara bättre.",
+      "explanation": "Tar fram område och jämförelsegrund.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Bättre på vad — och jämfört med vad?"
+    },
+    {
+      "id": "N7",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Det är fel att ändra sig.",
+      "explanation": "Undersöker avsändaren bakom en regel eller värdering.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Enligt vem?"
+    },
+    {
+      "id": "N8",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Om hon inte svarar betyder det att hon inte bryr sig.",
+      "explanation": "Prövar en likställning mellan händelse och betydelse.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Måste det betyda just det — eller kan det betyda något annat?"
+    },
+    {
+      "id": "N9",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Hans tonfall gör att jag måste försvara mig.",
+      "explanation": "Undersök hur ett intryck blir till en reaktion.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Hur går det till inom dig, från att du hör hans tonfall tills du känner att du måste försvara dig?"
+    },
+    {
+      "id": "N10",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Vi har dålig kommunikation.",
+      "explanation": "Gör ett abstrakt processord konkret som handling i ett sammanhang.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": "Vem säger eller gör vad, när kommunikationen inte fungerar?"
+    },
+    {
+      "id": "N11",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag är bara sådan.",
+      "explanation": "Undersök hur ett beteende har blivit en beskrivning av hela personen.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N12",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag vet redan att det kommer att gå fel.",
+      "explanation": "Undersök hur en förutsägelse har blivit en visshet.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N13",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Om jag säger nej är jag självisk.",
+      "explanation": "Undersök kopplingen mellan en handling och en egenskap.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N14",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Antingen ställer jag upp eller så sviker jag dem.",
+      "explanation": "Undersök om det finns fler än två alternativ.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N15",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag vill inte bli lika osäker igen.",
+      "explanation": "Undersök vad personen vill uppleva eller göra i stället.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N16",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Varför förstör jag alltid när det börjar gå bra?",
+      "explanation": "Undersök vad frågan redan tar för givet.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N17",
+      "title": "Upptäck språkgreppet",
+      "phrase": "När jag tänker på mötet vet jag att jag kommer att misslyckas.",
+      "explanation": "Undersök hur personen föreställer sig framtiden och når sin slutsats.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N18",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Jag kan inte ta det samtalet förrän jag känner mig helt säker.",
+      "explanation": "Undersök vilket villkor som har gjorts nödvändigt för handling.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N19",
+      "title": "Upptäck språkgreppet",
+      "phrase": "Det känns sant, så det måste vara sant.",
+      "explanation": "Undersök hur en känsla används som bevis för ett påstående.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "N20",
+      "title": "Upptäck språkgreppet",
+      "phrase": "När jag hör kritik låter den i huvudet som ett bevis på att jag inte duger.",
+      "explanation": "Undersök hur yttre ord blir till en inre bedömning.",
+      "deck": "nlp",
+      "status": "Bearbetad",
+      "example": ""
+    },
+    {
+      "id": "M51",
+      "title": "Hur vet du?",
+      "phrase": "Hur gör du för att veta att du inte kan — innan du har prövat?",
+      "explanation": "Undersöker hur vissheten skapas; frågan bäddar samtidigt in att personen inte prövat.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M52",
+      "title": "Och du kan, [namn] …",
+      "phrase": "Och du kan, [namn], **ge dig själv fler möjligheter** än du först räknade med.",
+      "explanation": "Namn som inskott och en verbfras som också fungerar som direkt uppmaning.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M53",
+      "title": "Veta och lära",
+      "phrase": "Man behöver inte veta att man håller på att lära sig för att faktiskt lära sig något.",
+      "explanation": "Generell avsändare och åtskillnad mellan process och medveten upptäckt. Fri svensk bearbetning.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M54",
+      "title": "Kanske …",
+      "phrase": "Kanske är det inte förmågan som saknas, utan tillåtelsen att använda den.",
+      "explanation": "Möjlig omramning av var begränsningen finns.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M55",
+      "title": "Just så. Precis så.",
+      "phrase": "Just så. / Precis så.",
+      "explanation": "Bekräfta utan att precisera exakt vad klienten gör rätt. Lyssnaren kan själv koppla bekräftelsen till sin upplevelse.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M56",
+      "title": "Nu när … blir det lättare …",
+      "phrase": "Nu när du [X] blir det lättare att [Y].",
+      "explanation": "Rama in X som redan aktuellt och koppla det till att Y blir lättare. Exempel: Nu när du har hittat ett undantag blir det lättare att börja leta efter fler.",
+      "deck": "hypnos",
+      "status": "Bearbetad"
+    },
+    {
+      "id": "M57",
+      "title": "Ta upptäckten vidare",
+      "phrase": "Nästa gång du märker att du tvekar kan du minnas det du just upptäckte och använda det där och då.",
+      "explanation": "Framtidskopplar en aktuell upptäckt till en återkommande situation.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    },
+    {
+      "id": "M58",
+      "title": "Så småningom …",
+      "phrase": "Så småningom kan det du nu behöver tänka på bli något du bara gör.",
+      "explanation": "Öppet tidsperspektiv och föreställning om övergång från medveten ansträngning till vana.",
+      "deck": "hypnos",
+      "status": "Arbetsförslag"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mus",
+      "title": "MUS",
+      "subtitle": "Mening utan slut",
+      "icon": "↝",
+      "tag": "FLÖDE",
+      "description": "Håll en enda mening levande med öppna ord och ständigt nya länkningar.",
+      "instruction": "Tala i en enda lång mening. Använd nominaliseringar och ospecificerade verb. Bind vidare utan att avsluta och låt lyssnaren fylla innehållet med egna erfarenheter.",
+      "support": "… och medan … samtidigt som … vilket … i takt med att … så att …",
+      "reflection": [
+        "Var blev du för specifik?",
+        "Var avslutade du kedjan?",
+        "Var bröts länkningen?"
+      ],
+      "bank": [
+        "förändring · upptäcka · förståelse · märka",
+        "nyfikenhet · uppleva · utveckling · lära",
+        "möjlighet · förändra · erfarenhet · upptäcka"
+      ],
+      "audio": true,
+      "star": true
+    },
+    {
+      "id": "yes",
+      "title": "Yes-set",
+      "subtitle": "Tre frågor, tre ja",
+      "icon": "＋",
+      "tag": "SEKVENS",
+      "description": "Skapa tre naturliga frågor som inbjuder till samma svar: ja.",
+      "instruction": "Formulera tre frågor som inbjuder till ja. Låt dem bilda en naturlig sekvens i det givna sammanhanget.",
+      "reflection": [
+        "Inbjuder alla tre till ja?",
+        "Hänger frågorna ihop utan att kännas krystade?"
+      ],
+      "bank": [
+        "inleda en frivillig gemensam övning",
+        "hjälpa någon att orientera sig i ett nytt rum",
+        "förbereda en enkel kreativ uppgift",
+        "börja ett samtal om lärande",
+        "introducera ett kortspel",
+        "inleda en planeringsstund"
+      ],
+      "audio": true
+    },
+    {
+      "id": "no",
+      "title": "No-set",
+      "subtitle": "Tre frågor, tre nej",
+      "icon": "−",
+      "tag": "SEKVENS",
+      "description": "Bygg en följd av tre frågor som inbjuder till nej.",
+      "instruction": "Formulera tre frågor som inbjuder till nej. Behåll en naturlig samtalston och utgå från sammanhanget.",
+      "reflection": [
+        "Inbjuder alla tre till nej?",
+        "Är frågorna begripliga utan staplade negationer?"
+      ],
+      "bank": [
+        "inleda en frivillig gemensam övning",
+        "hjälpa någon att orientera sig i ett nytt rum",
+        "förbereda en enkel kreativ uppgift",
+        "börja ett samtal om lärande",
+        "introducera ett kortspel",
+        "inleda en planeringsstund"
+      ],
+      "audio": true
+    },
+    {
+      "id": "compliance",
+      "title": "Compliance-set",
+      "subtitle": "Tre uppmaningar i följd",
+      "icon": "→",
+      "tag": "SEKVENS",
+      "description": "Skapa tre enkla uppmaningar som inbjuder till handling.",
+      "instruction": "Formulera tre enkla uppmaningar i en naturlig följd. Handlingarna behöver inte vara identiska. Utgå från det givna sammanhanget.",
+      "reflection": [
+        "Är varje uppmaning tydlig och lätt att följa?",
+        "Bildar handlingarna en naturlig sekvens?"
+      ],
+      "bank": [
+        "inleda en frivillig gemensam övning",
+        "hjälpa någon att orientera sig i ett nytt rum",
+        "förbereda en enkel kreativ uppgift",
+        "börja ett samtal om lärande",
+        "introducera ett kortspel",
+        "inleda en planeringsstund"
+      ],
+      "audio": true
+    },
+    {
+      "id": "embedded",
+      "title": "Bädda in en uppmaning",
+      "subtitle": "Bygg ramen själv",
+      "icon": "⌁",
+      "tag": "INBÄDDNING",
+      "description": "Få en slumpad uppmaning. Skapa inbakningen och markera kommandot med rösten.",
+      "instruction": "Bygg en naturlig formulering runt uppmaningen. Säg den högt och markera de inbäddade orden med betoning, tempo eller paus. Bedöm ditt eget framförande.",
+      "reflection": [
+        "Lät hela meningen naturlig?",
+        "Hördes kommandot som du avsåg?"
+      ],
+      "bank": [
+        "Välj en ny väg",
+        "Ge dig själv en chans",
+        "Upptäck något nytt",
+        "Lita på det du kan",
+        "Ta nästa steg",
+        "Pröva en annan möjlighet",
+        "Lyssna på dig själv",
+        "Släpp ett gammalt krav",
+        "Börja med det du vet",
+        "Ge dig själv mer tid",
+        "Låt det bli enklare",
+        "Hitta ditt eget sätt"
+      ],
+      "audio": true,
+      "selfOnly": true
+    },
+    {
+      "id": "alternativ",
+      "title": "Alla vägar leder vidare",
+      "subtitle": "Flera val, en riktning",
+      "icon": "⑂",
+      "tag": "ALTERNATIV",
+      "description": "Ge två eller tre val som alla leder mot samma mål.",
+      "instruction": "Skapa två eller tre alternativ som alla leder mot det givna målet. Låt lyssnaren välja väg.",
+      "reflection": [
+        "Leder alla alternativen mot målet?",
+        "Låter valet naturligt?"
+      ],
+      "bank": [
+        "börja lära sig något nytt",
+        "välja ett första litet steg",
+        "utforska en ny idé",
+        "ta en paus",
+        "pröva ett annat arbetssätt",
+        "upptäcka egna styrkor",
+        "förbereda ett samtal",
+        "undersöka ett beslut"
+      ],
+      "audio": true
+    },
+    {
+      "id": "omramning",
+      "title": "Samma innehåll, ny betydelse",
+      "subtitle": "Tre nya perspektiv",
+      "icon": "◇",
+      "tag": "OMRAMNING",
+      "description": "Hitta tre möjliga omramningar utan att förneka det som beskrivs.",
+      "instruction": "Ge påståendet tre alternativa betydelser. Behåll beteendet eller erfarenheten men undersök andra sätt att förstå den.",
+      "reflection": [
+        "Bevarade du det som faktiskt beskrevs?",
+        "Tillförde du tre olika perspektiv?"
+      ],
+      "bank": [
+        "Jag ändrar mig hela tiden.",
+        "Jag tänker för mycket.",
+        "Jag är för försiktig.",
+        "Jag blir lätt otålig.",
+        "Jag frågar alltid en gång till.",
+        "Jag behöver tid innan jag bestämmer mig.",
+        "Jag märker alla småfel.",
+        "Jag har svårt att släppa en idé.",
+        "Jag är envis.",
+        "Jag har inte lyckats ännu."
+      ],
+      "audio": true
+    },
+    {
+      "id": "precision",
+      "title": "Konkret–öppet–konkret",
+      "subtitle": "Växla tolkningsutrymme",
+      "icon": "↔",
+      "tag": "PRECISION",
+      "description": "Gör en konkret mening öppen och låt den sedan bli konkret igen.",
+      "instruction": "Gör den givna meningen öppnare med nominaliseringar och ospecificerade verb. Gör den sedan konkret igen, gärna med ett nytt innehåll.",
+      "reflection": [
+        "Vilka detaljer tog du bort?",
+        "Kan den öppna versionen rymma flera erfarenheter?"
+      ],
+      "bank": [
+        "Minns promenaden vid havet när du blev lugn.",
+        "Titta på den blå stolen vid fönstret.",
+        "Tänk på när du lärde dig cykla.",
+        "Du bestämde dig för att ringa din vän i går.",
+        "Du kände värmen i händerna efter promenaden.",
+        "Du skrev de tre första raderna i anteckningsboken."
+      ],
+      "audio": true
+    },
+    {
+      "id": "vav",
+      "title": "Fånga och väv vidare",
+      "subtitle": "Ett nytt ord i taget",
+      "icon": "∿",
+      "tag": "IMPROVISATION",
+      "description": "Fortsätt tala när nya ord dyker upp. Väv in dem utan att börja om.",
+      "instruction": "Börja tala med det första ordet. Ett nytt ord kommer var tionde sekund. Väv in varje ord i det du redan säger utan att börja om.",
+      "reflection": [
+        "Lyckades du fortsätta utan att börja om?",
+        "Hur byggde du övergångarna?"
+      ],
+      "bank": [
+        "nyckel",
+        "horisont",
+        "förändring",
+        "stig",
+        "fönster",
+        "nyfikenhet",
+        "rytm",
+        "möjlighet",
+        "tråd",
+        "upptäckt",
+        "bro",
+        "riktning",
+        "vatten",
+        "förståelse",
+        "dörr",
+        "rörelse",
+        "ljus",
+        "erfarenhet"
+      ],
+      "audio": true
+    },
+    {
+      "id": "berattelse",
+      "title": "Berättelsen bär uppmaningen",
+      "subtitle": "En röst inuti en berättelse",
+      "icon": "“",
+      "tag": "BERÄTTANDE",
+      "description": "Bädda in en uppmaning i en kort, påhittad berättelse.",
+      "instruction": "Skapa en kort, tydligt påhittad berättelse där en person säger uppmaningen till en annan. Gör citatet naturligt i berättelsen och markera det med rösten.",
+      "reflection": [
+        "Hade uppmaningen en naturlig plats?",
+        "Var det tydligt att berättelsen var påhittad?"
+      ],
+      "bank": [
+        "Välj en ny väg",
+        "Ge dig själv en chans",
+        "Upptäck något nytt",
+        "Lita på det du kan",
+        "Ta nästa steg",
+        "Pröva en annan möjlighet",
+        "Lyssna på dig själv",
+        "Släpp ett gammalt krav",
+        "Börja med det du vet",
+        "Ge dig själv mer tid",
+        "Låt det bli enklare",
+        "Hitta ditt eget sätt"
+      ],
+      "audio": true
+    },
+    {
+      "id": "metamodell",
+      "title": "Upptäck språkgreppet",
+      "subtitle": "Svara på ett påstående",
+      "icon": "?",
+      "tag": "NLP",
+      "description": "Hitta generaliseringar, antaganden och inre processer. Formulera en egen fråga.",
+      "instruction": "Lyssna efter generaliseringar, utelämnad information eller antaganden. Svara med en fråga som undersöker påståendet. Det finns inget enda rätt svar.",
+      "reflection": [
+        "Vad i språket fångade du upp?",
+        "Undersöker din fråga utan att bestämma svaret?"
+      ],
+      "bank": [
+        "Ingen lyssnar på mig.",
+        "Jag kan inte säga nej.",
+        "Jag måste ställa upp.",
+        "De tycker att jag är besvärlig.",
+        "Det gick dåligt.",
+        "Jag borde vara bättre.",
+        "Det är fel att ändra sig.",
+        "Om hon inte svarar betyder det att hon inte bryr sig.",
+        "Hans tonfall gör att jag måste försvara mig.",
+        "Vi har dålig kommunikation.",
+        "Jag är bara sådan.",
+        "Jag vet redan att det kommer att gå fel.",
+        "Om jag säger nej är jag självisk.",
+        "Antingen ställer jag upp eller så sviker jag dem.",
+        "Jag vill inte bli lika osäker igen.",
+        "Varför förstör jag alltid när det börjar gå bra?",
+        "När jag tänker på mötet vet jag att jag kommer att misslyckas.",
+        "Jag kan inte ta det samtalet förrän jag känner mig helt säker.",
+        "Det känns sant, så det måste vara sant.",
+        "När jag hör kritik låter den i huvudet som ett bevis på att jag inte duger."
+      ],
+      "audio": true
+    }
+  ],
+  "version": 1
+}
